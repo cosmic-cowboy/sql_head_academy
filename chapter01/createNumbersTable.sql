@@ -1,0 +1,13 @@
+-- 第1回　SQLで連番を扱う　（5 ）断絶区間を求める
+-- 表10　Numbers
+CREATE TABLE Numbers(
+	num INTEGER NOT NULL
+);
+
+INSERT INTO Numbers VALUES(1);
+INSERT INTO Numbers VALUES(3);
+INSERT INTO Numbers VALUES(4);
+INSERT INTO Numbers VALUES(7);
+INSERT INTO Numbers VALUES(8);
+INSERT INTO Numbers VALUES(9);
+INSERT INTO Numbers VALUES(12);
