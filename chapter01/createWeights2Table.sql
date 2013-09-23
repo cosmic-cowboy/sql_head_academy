@@ -1,0 +1,15 @@
+
+CREATE TABLE Weights2(
+	class INTEGER NOT NULL,
+	student_id INTEGER NOT NULL, 
+	Weight INTEGER NOT NULL,
+    Constraint "Weights2_pkey" Primary Key (class, student_id)
+);
+
+INSERT INTO Weights2 VALUES(1, 100,50);
+INSERT INTO Weights2 VALUES(1, 101,55);
+INSERT INTO Weights2 VALUES(1, 102,56);
+INSERT INTO Weights2 VALUES(2, 100,60);
+INSERT INTO Weights2 VALUES(2, 101,72);
+INSERT INTO Weights2 VALUES(2, 102,73);
+INSERT INTO Weights2 VALUES(2, 103,73);
