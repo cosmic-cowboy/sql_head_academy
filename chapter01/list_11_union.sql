@@ -1,0 +1,6 @@
+-- 1行のデータを3行に UNION で
+SELECT * FROM onerow
+UNION ALL
+SELECT * FROM onerow
+UNION ALL
+SELECT * FROM onerow
